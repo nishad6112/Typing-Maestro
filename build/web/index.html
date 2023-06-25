@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> TYPING MAESTRO </title>
+  <link rel="stylesheet" href="landing/css/front.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="landing/img/feature1.svg"> 
+      <span>Typing Maestro </span> 
+    </div>
+    <nav class="nav-items">
+      <a href="loginfinal.jsp">LOGIN</a>
+      <a href="registrationfinal.jsp">REGISTER</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-center">
+    <div class="intro">
+      <h1>Learn To Type <span class ="auto-input"></span></h1>
+      <p>Don't Practice until you get it right. Practice until you can't get it wrong !!.</p>
+<!--      <img src="landing/img/student-login.svg">-->
+    </div>
+    </div>
+
+    <div id= "about"  class="about-me">
+      <div class="about-me-text">
+        <h2>Why Typing Maestro ?</h2>
+        <p>Typing Maestro is a web-based application that makes giving online typing tests super easy, quick and efficient.
+           You can measure your current typing skill through our typing test application in just a minute.
+           You can also track your progress by analyzing your progress report.
+           It also provide information about various typing exams conducted by Indian organizations for hiring.</p>
+      </div>
+      <img src="landing/img/confuse-man.jpg" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div id="contact"  class="contactSection section">
+      <div class="text-center">
+        <h2>Wanna Reach out ?</h2>
+        
+        <a href="mailTo:dahare6112@gmail.com" class="contactButton">Send an Email!</a>
+         <p> Made with &#128151; in India &#128525;</p>
+      </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>">
+<script>
+        var typed =new Typed(".auto-input",{
+            strings :["Faster !!" , "Accurate !!","Better !!"],
+            typeSpeed : 150,
+            backSpeed: 150,
+            loop:true
+        });
+</script>
+</body>
+</html>

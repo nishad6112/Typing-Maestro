@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test </title>
+    <link rel="stylesheet" href="test/style.css">
+<!--    <link rel="stylesheet" href="landing/css/front.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+<!--       <header class="header">
+    <div class="logo">
+      <img src="landing/img/feature1.svg"> 
+      <span>Typing Maestro</span> 
+    </div>-->
+<!--       </header>
+      <nav class="nav-items">
+      <a href="Typing_test.html">TYPING TEST</a>
+       <a href="#jobs">TYPING JOBS</a> 
+      <a href="logout">LOGOUT</a>
+    </nav>
+      <main>
+    <div class="main-center">
+    <div class="intro">-->
+      
+    
+    <div class="wrapper">
+      <input type="text" class="input-field">
+      <div class="content-box"> <h2>Start Typing.... </h2>
+        <div class="typing-text">
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="mistake">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button>Try Again</button>
+          
+         <form action="StoreData" method ="post">
+            <input type="text" id="wpm_score" name ="wpm" hidden/>
+            <input type="text" id="mistake_score" name ="mistakes" hidden/>
+            <input type="submit" value="submit" id="submit_btn" hidden/>
+
+      </form>
+      <div class="save">
+<!--           <button >Home Page</button>-->
+           <button onclick="window.location.href='profile.jsp';">Home Page</button>
+           <button onclick="storeData()"> Save Result</button></div>
+<!--                <button> Try Again</button></div>-->
+           
+        </div>
+         
+      </div>
+    </div>
+  
+  
+  
+    <script src="test/js/paragraphs.js"></script>
+    <script src="test/js/script.js"></script>
+  
+  </body>
+</html>
